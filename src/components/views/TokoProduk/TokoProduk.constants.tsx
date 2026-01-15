@@ -11,12 +11,12 @@ const PRODUK_TOKO_ITEMS = [
     price: 50000,
     image: "/images/tokoproduk/mekarsari_parungpanjang.jpeg",
   },
-  {
-    id: "3",
-    name: "Mekarsari Parung Panjang",
-    price: 50000,
-    image: "/images/tokoproduk/paring_panjang.jpeg",
-  },
+  // {
+  //   id: "3",
+  //   name: "Mekarsari Parung Panjang",
+  //   price: 50000,
+  //   image: "/images/tokoproduk/paring_panjang.jpeg",
+  // },
 ];
 
 export { PRODUK_TOKO_ITEMS };
