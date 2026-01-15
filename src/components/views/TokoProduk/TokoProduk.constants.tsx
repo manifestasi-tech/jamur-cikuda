@@ -1,39 +1,21 @@
 const PRODUK_TOKO_ITEMS = [
   {
-    id: 'jamur-crispy-1',
-    name: 'Jamur Crispy 1',
-    price: 12000,
-    image: '/images/tokoproduk/Produk1.png',
+    id: "1",
+    name: "Suppa Crispy",
+    price: 50000,
+    image: "/images/tokoproduk/suppa_crispy_oyster_mushroom.jpeg",
   },
   {
-    id: 'jamur-crispy-2',
-    name: 'Jamur Crispy 2',
-    price: 12000,
-    image: '/images/tokoproduk/Produk1.png',
+    id: "2",
+    name: "Paring Panjang",
+    price: 50000,
+    image: "/images/tokoproduk/mekarsari_parungpanjang.jpeg",
   },
   {
-    id: 'jamur-crispy-3',
-    name: 'Jamur Crispy 3',
-    price: 12000,
-    image: '/images/tokoproduk/Produk1.png',
-  },
-  {
-    id: 'sate-jamur-1',
-    name: 'Sate Jamur 1',
-    price: 20000,
-    image: '/images/tokoproduk/Produk1.png',
-  },
-  {
-    id: 'sate-jamur-2',
-    name: 'Sate Jamur',
-    price: 20000,
-    image: '/images/tokoproduk/Produk1.png',
-  },
-  {
-    id: 'sate-jamur-3',
-    name: 'Sate Jamur',
-    price: 20000,
-    image: '/images/tokoproduk/Produk1.png',
+    id: "3",
+    name: "Mekarsari Parung Panjang",
+    price: 50000,
+    image: "/images/tokoproduk/paring_panjang.jpeg",
   },
 ];
 
