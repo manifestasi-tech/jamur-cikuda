@@ -106,12 +106,12 @@ export default function RootLayout({
   return (
     <html lang='id'>
       <head>
-        <GoogleAnalytics />
         <link rel='icon' href='/icon.png' sizes='any' />
         <link rel='apple-touch-icon' href='/icon.png' />
         <link rel='manifest' href='/manifest.webmanifest' />
       </head>
       <body>
+        <GoogleAnalytics />
         <OrganizationJsonLd />
         <LocalBusinessJsonLd />
         <WebSiteJsonLd />
