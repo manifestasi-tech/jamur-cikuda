@@ -110,12 +110,14 @@ const HomePageLayoutFooter = () => {
                 <Link
                   key={item.label}
                   href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:underline decoration-white">
                   <Typography
                     variant={'base'}
                     weight={'regular'}
                     color={'white'}>
-                    {item.label}
+                    {item.label}: {item.phone}
                   </Typography>
                 </Link>
               ))}
