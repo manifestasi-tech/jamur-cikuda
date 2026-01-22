@@ -1,0 +1,389 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "services": "Pelayanan Kami",
+    "about": "Tentang Kami",
+    "mushroom": "Tentang Jamur",
+    "shop": "Toko Produk"
+  },
+  "common": {
+    "readMore": "Baca Selengkapnya",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "contactUs": "Hubungi Kami",
+    "addToCart": "Masukkan Keranjang",
+    "cart": "Keranjang",
+    "orderNow": "Pesan Sekarang",
+    "explore": "Jelajahi Dari Sini"
+  },
+  "home": {
+    "hero": {
+      "title": "Jamur Cikuda Nusantara",
+      "subtitle": "Pusat Budidaya & Produk Jamur Tiram Berkualitas"
+    },
+    "banner": {
+      "banner1": {
+        "title": "Republik Jamur Nusantara",
+        "desc": "Rahasia Bisnis, Hoby dan Produk Jamur Nusantara"
+      },
+      "banner2": {
+        "title": "Produk Jamur Nusantara Berkualitas",
+        "desc": "Kami juga menyediakan jamur crispy renyah, baglog, bibit jamur, serta sate jamur lezat"
+      }
+    },
+    "aboutSection": {
+      "title": "Tentang Kami",
+      "headline": "Pusat Budidaya, Pelatihan, & Produksi Jamur Tiram Terpercaya",
+      "description": "Selain budidaya jamur Tiram, JAMUR CIKUDA juga mengadakan pelatihan budidaya, pembuatan bibit unggul, serta menjual baglog miselium bergaransi, bibit jamur unggul, makanan jamur frozen, jamur kering, serbuk jamur, serta suplemen kesehatan jamur kapsul.",
+      "partners": "Mitra Kami"
+    },
+    "about": {
+      "title": "Tentang Kami",
+      "description": "Jamur Cikuda Nusantara adalah pusat budidaya jamur tiram profesional yang melayani pelatihan, penjualan bibit unggul, baglog bergaransi, dan produk olahan jamur berkualitas tinggi."
+    },
+    "services": {
+      "title": "Pelayanan Kami",
+      "headline": "Semua Ada Disini",
+      "description": "Layanan lengkap budidaya jamur tiram, pelatihan budidaya profesional, pembuatan bibit unggul, baglog miselium bergaransi, jamur frozen, kering, serbuk, dan suplemen kapsul.",
+      "items": {
+        "cultivation": {
+          "title": "Budidaya Jamur",
+          "desc": "Kami bantu optimalkan budidaya jamur Anda dengan metode yang mudah"
+        },
+        "seedProduction": {
+          "title": "Pembuatan Bibit Unggul",
+          "desc": "Kami sediakan layanan pembuatan bibit unggul, siap pakai dan teruji"
+        },
+        "baglogSales": {
+          "title": "Penjualan Baglog Miselium",
+          "desc": "Kebun kami membuka program tour belajar untuk pelajar, komunitas, Asn dan lain lain"
+        },
+        "edutour": {
+          "title": "Edutour",
+          "desc": "Kebun kami membuka program tour belajar untuk pelajar, komunitas, Asn dan lain lain"
+        },
+        "frozenFood": {
+          "title": "Jamur Crispy Frozen Food",
+          "desc": "Kami sediakan Jamur Crispy & Frozen Food renyah siap jual untuk usaha Anda."
+        },
+        "restaurant": {
+          "title": "Resto Jamur",
+          "desc": "Kami bantu wujudkan resto jamur dengan menu kreatif dan siap jual"
+        },
+        "kumbungRental": {
+          "title": "Pembuatan & Sewa Kumbung",
+          "desc": "Kami bantu pembuatan dan sewa kumbung siap pakai untuk budidaya jamur."
+        },
+        "consultation": {
+          "title": "Konsultasi Bisnis",
+          "desc": "Kami siap bantu konsultasi budidaya jamur sesuai kebutuhan Anda"
+        },
+        "management": {
+          "title": "Pengelolaan Mandiri",
+          "desc": "Kami sediakan skema kerjasama untuk pengelolaan jamur secara mandiri"
+        },
+        "iot": {
+          "title": "Pemasangan IoT Kumbung",
+          "desc": "Kami bantu pemasangan IoT kumbung untuk kontrol budidaya lebih akurat"
+        },
+        "partnership": {
+          "title": "Budidaya Bersama",
+          "desc": "Kami bantu pemasangan IoT kumbung untuk kontrol budidaya lebih akurat"
+        },
+        "training": {
+          "title": "Pelatihan Budidaya",
+          "desc": "Memberikan pelatihan budidaya jamur dari tahap penanaman hingga panen siap jual"
+        }
+      }
+    },
+    "whyCikuda": {
+      "title": "Kenapa Cikuda?",
+      "headline": "Keunggulan kami dalam kualitas, kepercayaan, dan hasil nyata.",
+      "description": "Kami menyediakan produk dan layanan terbaik untuk budidaya jamur tiram Anda.",
+      "items": {
+        "quality": "Kualitas Jamur Grade A dan Organik",
+        "products": "Penghasil Produk Jamur Pilihan & Produk Turunan",
+        "training": "Pelatihan Langsung dari Ahli",
+        "businessConsultant": "Konsultan Bisnis Untuk Peningkatan Usaha dan Keuntungan Berlipat",
+        "cultivationConsultant": "Konsultan Budidaya Untuk Bisnis Jamur di Seluruh Jawa"
+      }
+    },
+    "reviews": {
+      "title": "Review Pelanggan",
+      "subtitle": "Apa Kata Para Pelanggan Kami",
+      "description": "Apa kata pelanggan kami tentang produk dan layanan Jamur Cikuda Nusantara.",
+      "items": {
+        "review1": {
+          "name": "Helmy Y",
+          "desc": "Barangkali ini adalah kebun jamur terbagus, rapi, indah yang pernah ada di Indonesia.Para pekerja tampak happy dan tim sangat ramah. Terimakasih, semoga pelayanan ini diteruskan"
+        },
+        "review2": {
+          "name": "Malik",
+          "desc": "Sejak awal kami memperoleh jatah 5 Kg jamur segar, hingga ratusan Kg, jamur produksi Jamur Cikuda selalu segar dan baik. Para pekerja akrab dan membuat kami nyaman"
+        },
+        "review3": {
+          "name": "Ivome Susan",
+          "desc": "Pertama investasi perusahaan tampaknya selalu menjaga kualitas dan janji yang layak ditepati. Memindahkan uang dari bank ke tempat ini membuat investasi kami naik berlipat"
+        }
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "heading": "Informasi dan Tanya Jawab Seputar Layanan Kami",
+      "buttonText": "PERTANYAAN LAIN",
+      "description": "Temukan jawaban atas pertanyaan umum tentang produk dan layanan kami.",
+      "items": {
+        "faq1": {
+          "question": "Perusahaan Jamur Cikuda, milik pribadi atau PT?",
+          "answer": "PT Jamur Cikuda Nusantara milik perseroan terbatas yang sahamnya dimiliki beberapa orang secara pribadi"
+        },
+        "faq2": {
+          "question": "Pelayanan Apa Saja Yang Tersedia ?",
+          "answer": "Budidaya, Pelatihan, Produksi Bibit, Baglog, Jamur Kering, Bubuk Jamur, Kapsul Jamur, Jamur Kesehatan, Pembuatan Kumbung, Kerjasama Usaha Jamur, Budidaya Bersama dll"
+        },
+        "faq3": {
+          "question": "Bagaimana cara menghubungi PIC tertentu misal untuk konsultasi, kerjasama usaha atau Kunjungan ?",
+          "answer": "Hubungi : 08138888980"
+        }
+      }
+    },
+    "cta": {
+      "title": "Wujudkan Bisnis Jamur Impian Anda Sekarang",
+      "button": "Hubungi Kami"
+    }
+  },
+  "aboutPage": {
+    "title": "Tentang Kami",
+    "headline": "Kenali Kami Lebih Dekat Lagi",
+    "description": "Jamur Cikuda Nusantara telah berdiri sejak 2016 dengan fokus pada budidaya jamur tiram berkualitas tinggi. Berawal dari hobi, kini kami menjadi pusat edukasi dan produksi jamur di Bogor.",
+    "subDescription": "Kenali perjalanan kami dalam menghadirkan kebaikan dari alam melalui inovasi, riset, dan komitmen tinggi untuk menghasilkan produk jamur berkualitas.",
+    "experience": "Kami telah berpengalaman selama lebih dari",
+    "experienceHighlight": "5 tahun di industri jamur",
+    "experienceSuffix": ", menghadirkan produk berkualitas dan layanan yang terpercaya.",
+    "stats": {
+      "customers": "Customer",
+      "feedback": "Feedback Positif",
+      "baglog": "Baglog",
+      "alumni": "Alumni Pelatihan",
+      "partners": "Mitra Usaha"
+    },
+    "managed": {
+      "title": "Dikelola oleh profesional",
+      "description": "Setiap proses dijalankan oleh tim berpengalaman yang mengutamakan kualitas, efisiensi, dan kepercayaan pelanggan."
+    },
+    "vision": {
+      "title": "Visi",
+      "content": "Menjadi pusat budidaya dan pengembangan jamur terbesar dan terpercaya di Indonesia."
+    },
+    "mission": {
+      "title": "Misi",
+      "item1": "Menyediakan produk jamur berkualitas premium",
+      "item2": "Memberikan pelatihan budidaya jamur profesional",
+      "item3": "Mengembangkan kemitraan yang saling menguntungkan",
+      "item4": "Mendorong inovasi dalam industri jamur"
+    },
+    "cta": "MULAI KONSULTASI"
+  },
+  "mushroomPage": {
+    "title": "Tentang Jamur",
+    "headline": "Jamur Populer Di Indonesia",
+    "description": "Berikut beberapa jamur populer yang ada di Indonesia baik untuk makanan dan obat",
+    "mushrooms": {
+      "oyster": {
+        "name": "Jamur Tiram",
+        "latin": "Pleurotus ostreatus",
+        "origin": {
+          "title": "Asal",
+          "item1": "Mudah dibudidayakan",
+          "item2": "Umum ditemukan di daerah tropis"
+        },
+        "nutrition": {
+          "title": "Kandungan Nutrisi",
+          "item1": "Kaya serat",
+          "item2": "Mengandung beta-glukan",
+          "item3": "Mengandung antioksidan"
+        },
+        "benefits": {
+          "title": "Khasiat",
+          "item1": "Meningkatkan sistem imun",
+          "item2": "Mendukung kesehatan jantung"
+        }
+      },
+      "straw": {
+        "name": "Jamur Merang",
+        "latin": "Volvariella volvacea",
+        "origin": {
+          "title": "Asal",
+          "item1": "Tumbuh di tumpukan jerami"
+        },
+        "nutrition": {
+          "title": "Kandungan Nutrisi",
+          "item1": "Kaya protein",
+          "item2": "Mengandung vitamin b kompleks dan mineral"
+        },
+        "benefits": {
+          "title": "Khasiat",
+          "item1": "Baik untuk metabolisme tubuh",
+          "item2": "Meningkatkan daya tahan"
+        }
+      },
+      "lingzhi": {
+        "name": "Jamur Lingzhi",
+        "latin": "Ganoderma lucidum",
+        "origin": {
+          "title": "Asal",
+          "item1": "Banyak ditemukan di hutan hutan asia"
+        },
+        "nutrition": {
+          "title": "Kandungan Nutrisi",
+          "item1": "Mengandung polisakarida dan triterpenoid"
+        },
+        "benefits": {
+          "title": "Khasiat",
+          "item1": "Meningkatkan sistem imun",
+          "item2": "Obat herbal diabetes",
+          "item3": "Obat herbal jantung"
+        }
+      },
+      "woodEar": {
+        "name": "Jamur Kuping",
+        "latin": "Auricularia auricula-judae",
+        "origin": {
+          "title": "Asal",
+          "item1": "Tumbuh di tumpukan jerami"
+        },
+        "nutrition": {
+          "title": "Kandungan Nutrisi",
+          "item1": "Kaya protein",
+          "item2": "Mengandung vitamin b kompleks dan mineral"
+        },
+        "benefits": {
+          "title": "Khasiat",
+          "item1": "Baik untuk metabolisme tubuh",
+          "item2": "Meningkatkan daya tahan"
+        }
+      },
+      "enoki": {
+        "name": "Jamur Enoki",
+        "latin": "Flammulina velutipes",
+        "origin": {
+          "title": "Asal",
+          "item1": "Banyak ditemukan di hutan hutan asia timur"
+        },
+        "nutrition": {
+          "title": "Kandungan Nutrisi",
+          "item1": "Rendah kalori dan tinggi serat"
+        },
+        "benefits": {
+          "title": "Khasiat",
+          "item1": "Baik untuk pencernaan",
+          "item2": "Membantu menjaga berat badan"
+        }
+      },
+      "button": {
+        "name": "Jamur Kancing",
+        "latin": "Agaricus bisporus",
+        "origin": {
+          "title": "Asal",
+          "item1": "Hutan Eropa dan Amerika Utara"
+        },
+        "nutrition": {
+          "title": "Kandungan Nutrisi",
+          "item1": "Tinggi protein dan rendah kalori"
+        },
+        "benefits": {
+          "title": "Khasiat",
+          "item1": "Menjaga berat badan",
+          "item2": "Meningkatkan kesehatan pencernaan"
+        }
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Pelayanan Kami",
+    "headline": "Semua Ada Disini",
+    "edutour": {
+      "title": "Edutour",
+      "headline": "Mengenal Jamur Lewat Pengalaman Langsung",
+      "description": "Program edukasi interaktif yang memperkenalkan dunia jamur dari proses budidaya hingga manfaatnya. Cocok untuk siswa, komunitas, dan penggemar alam.",
+      "cardTitle": "Tour Edukasi",
+      "detailTitle": "Detail Editour",
+      "details": {
+        "item1": "Dibuka untuk pelajar, komunitas, asn dan lain - lain",
+        "item2": "Dipandu oleh ahli",
+        "item3": "Dapat menikmati makan siang dan malam di Resto Suppa Jamur"
+      }
+    },
+    "partnership": {
+      "title": "Peluang Kerjasama",
+      "generalTitle": "Peluang Kerjasama Umum",
+      "generalHeadline": "Jadilah Bagian dari Jaringan Mitra Jamur Cikuda",
+      "generalDescription": "Kami membuka peluang kerjasama untuk berbagai kalangan yang ingin mengembangkan usaha jamur.",
+      "investorTitle": "Peluang Kerjasama Investor",
+      "investorHeadline": "Investasi Menguntungkan di Bisnis Jamur",
+      "investorDescription": "Jadilah investor kami dan nikmati keuntungan dari bisnis jamur yang terus berkembang.",
+      "businessDetail": "Detail Bisnis",
+      "cta": "HUBUNGI SEKARANG",
+      "cards": {
+        "oysterCultivation": {
+          "title": "Budidaya Jamur Tiram",
+          "baglogCost": "Biaya Produksi Baglog",
+          "sellingPrice": "Harga Jual Jamur Segar",
+          "profit": "Profit",
+          "yearlyProduction": "Produksi per tahun",
+          "profitSharing": "Sharing Profit"
+        },
+        "baglogProduction": {
+          "title": "Produksi Baglog Miselium 100%",
+          "baglogCost": "Biaya Produksi Baglog",
+          "sellingPrice": "Harga Jual Jamur Segar",
+          "profit": "Profit",
+          "yearlyProduction": "Produksi per tahun",
+          "profitSharing": "Sharing Profit"
+        },
+        "seedProduction": {
+          "title": "Produksi Bibit Jamur",
+          "seedCost": "Biaya Produksi Bibit",
+          "sellingPrice": "Harga Jual Jamur Segar",
+          "profit": "Profit",
+          "yearlyProduction": "Produksi per tahun",
+          "profitSharing": "Sharing Profit"
+        },
+        "crispyFrozen": {
+          "title": "Jamur Crispy & Frozen Food",
+          "crispyCost": "Biaya Produksi Jamur Krispy",
+          "crispyPrice": "Harga Jual Jamur Crispy",
+          "profit": "Profit",
+          "yearlyProduction": "Produksi per tahun",
+          "profitSharing": "Sharing Profit"
+        },
+        "restaurant": {
+          "title": "Resto Jamur Suppa",
+          "description": "Bangunan Resto dalam bentuk Joglo sudah  siap,Investor yang berkenan bekerjasama bisa menghubungi kami dan berdiskusi soal kerjasamanya"
+        },
+        "driedPowder": {
+          "title": "Jamur Kering & Serbuk",
+          "description": "Ini adalah The Next Level Mushroom Business yang akan viral dan menjadi gaya hidup di Indonesia berkaitan dengan kesehatan manusia Indonesia"
+        }
+      }
+    }
+  },
+  "footer": {
+    "address": "JHPR+8P9, Cikuda Wanaherang, Parung Panjang, Bogor Regency, West Java 16360",
+    "hours": {
+      "days": "Senin – Jumat",
+      "time": "09.00 – 20.00"
+    },
+    "copyright": "Copyright © 2026 Jamur Cikuda"
+  },
+  "products": {
+    "title": "Produk Kami",
+    "shopTitle": "Toko Produk",
+    "headline": "Produk Jamur Nusantara",
+    "description": "Berikut beberapa produk jamur nusantara yang berkualitas",
+    "price": "Rp",
+    "quantity": "Jumlah",
+    "cart": "Keranjang",
+    "cartTitle": "Keranjang Belanja",
+    "addToCart": "Masukkan Keranjang"
+  }
+}

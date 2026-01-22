@@ -7,6 +7,7 @@ import { Minus, Plus } from "lucide-react";
 import { Product } from "@/types/Product";
 import { convertIDR } from "@/lib/utils";
 import useProductCard from "./useProductCard";
+import { useTranslations } from "next-intl";
 
 interface PropsTypes {
   product: Product;
@@ -14,6 +15,7 @@ interface PropsTypes {
 
 const ProductCard = (props: PropsTypes) => {
   const { product } = props;
+  const t = useTranslations();
 
   const {
     setQuantity,
@@ -84,7 +86,7 @@ const ProductCard = (props: PropsTypes) => {
             className='w-full font-normal '
             onClick={() => handleAddToCart(product)}
           >
-            Masukkan Keranjang
+            {t("products.addToCart")}
           </Button>
         </div>
       </div>

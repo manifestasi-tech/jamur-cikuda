@@ -1,0 +1,389 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Our Services",
+    "about": "About Us",
+    "mushroom": "About Mushroom",
+    "shop": "Product Shop"
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "addToCart": "Add to Cart",
+    "cart": "Cart",
+    "orderNow": "Order Now",
+    "explore": "Explore From Here"
+  },
+  "home": {
+    "hero": {
+      "title": "Jamur Cikuda Nusantara",
+      "subtitle": "Quality Oyster Mushroom Cultivation & Products Center"
+    },
+    "banner": {
+      "banner1": {
+        "title": "Mushroom Republic of Nusantara",
+        "desc": "The Secret of Business, Hobby and Nusantara Mushroom Products"
+      },
+      "banner2": {
+        "title": "Quality Nusantara Mushroom Products",
+        "desc": "We also provide crispy mushrooms, baglogs, mushroom seeds, and delicious mushroom satay"
+      }
+    },
+    "aboutSection": {
+      "title": "About Us",
+      "headline": "Trusted Oyster Mushroom Cultivation, Training, & Production Center",
+      "description": "Besides oyster mushroom cultivation, JAMUR CIKUDA also conducts cultivation training, superior seed production, and sells guaranteed mycelium baglogs, superior mushroom seeds, frozen mushroom food, dried mushrooms, mushroom powder, and mushroom capsule health supplements.",
+      "partners": "Our Partners"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Jamur Cikuda Nusantara is a professional oyster mushroom cultivation center that provides training, superior seed sales, guaranteed baglog, and high-quality mushroom products."
+    },
+    "services": {
+      "title": "Our Services",
+      "headline": "Everything Is Here",
+      "description": "Complete oyster mushroom cultivation services, professional cultivation training, superior seed production, guaranteed mycelium baglog, frozen mushrooms, dried mushrooms, mushroom powder, and capsule supplements.",
+      "items": {
+        "cultivation": {
+          "title": "Mushroom Cultivation",
+          "desc": "We help optimize your mushroom cultivation with easy methods"
+        },
+        "seedProduction": {
+          "title": "Superior Seed Production",
+          "desc": "We provide superior seed production services, ready to use and tested"
+        },
+        "baglogSales": {
+          "title": "Mycelium Baglog Sales",
+          "desc": "Our farm opens a learning tour program for students, communities, civil servants and others"
+        },
+        "edutour": {
+          "title": "Edutour",
+          "desc": "Our farm opens a learning tour program for students, communities, civil servants and others"
+        },
+        "frozenFood": {
+          "title": "Crispy Frozen Mushroom Food",
+          "desc": "We provide crispy Mushroom & Frozen Food ready to sell for your business."
+        },
+        "restaurant": {
+          "title": "Mushroom Restaurant",
+          "desc": "We help realize a mushroom restaurant with creative and ready-to-sell menus"
+        },
+        "kumbungRental": {
+          "title": "Kumbung Construction & Rental",
+          "desc": "We help with the construction and rental of ready-to-use kumbung for mushroom cultivation."
+        },
+        "consultation": {
+          "title": "Business Consultation",
+          "desc": "We are ready to help with mushroom cultivation consultations according to your needs"
+        },
+        "management": {
+          "title": "Independent Management",
+          "desc": "We provide a cooperation scheme for independent mushroom management"
+        },
+        "iot": {
+          "title": "Kumbung IoT Installation",
+          "desc": "We help install kumbung IoT for more accurate cultivation control"
+        },
+        "partnership": {
+          "title": "Cultivation Together",
+          "desc": "We help install kumbung IoT for more accurate cultivation control"
+        },
+        "training": {
+          "title": "Cultivation Training",
+          "desc": "Providing mushroom cultivation training from planting to ready-to-sell harvest"
+        }
+      }
+    },
+    "whyCikuda": {
+      "title": "Why Cikuda?",
+      "headline": "Our excellence in quality, trust, and real results.",
+      "description": "We provide the best products and services for your oyster mushroom cultivation.",
+      "items": {
+        "quality": "Grade A and Organic Mushroom Quality",
+        "products": "Premium Mushroom Products & Derivatives Producer",
+        "training": "Direct Training from Experts",
+        "businessConsultant": "Business Consultant for Business Growth and Multiplied Profits",
+        "cultivationConsultant": "Cultivation Consultant for Mushroom Business Throughout Java"
+      }
+    },
+    "reviews": {
+      "title": "Customer Reviews",
+      "subtitle": "What Our Customers Say",
+      "description": "What our customers say about Jamur Cikuda Nusantara products and services.",
+      "items": {
+        "review1": {
+          "name": "Helmy Y",
+          "desc": "Perhaps this is the best, neat, beautiful mushroom farm ever in Indonesia. The workers look happy and the team is very friendly. Thank you, I hope this service is continued"
+        },
+        "review2": {
+          "name": "Malik",
+          "desc": "From the beginning we received an allocation of 5 kg of fresh mushrooms, to hundreds of kg, Jamur Cikuda production mushrooms are always fresh and good. The workers are friendly and make us comfortable"
+        },
+        "review3": {
+          "name": "Ivome Susan",
+          "desc": "First company investment seems to always maintain quality and promises worth keeping. Moving money from the bank to this place made our investment multiply"
+        }
+      }
+    },
+    "faq": {
+      "title": "FAQ",
+      "heading": "Information and Q&A About Our Services",
+      "buttonText": "MORE QUESTIONS",
+      "description": "Find answers to common questions about our products and services.",
+      "items": {
+        "faq1": {
+          "question": "Is Jamur Cikuda company privately owned or a PT?",
+          "answer": "PT Jamur Cikuda Nusantara is a limited liability company whose shares are privately owned by several people"
+        },
+        "faq2": {
+          "question": "What Services Are Available?",
+          "answer": "Cultivation, Training, Seed Production, Baglog, Dried Mushrooms, Mushroom Powder, Mushroom Capsules, Health Mushrooms, Kumbung Construction, Mushroom Business Cooperation, Cultivation Together, etc."
+        },
+        "faq3": {
+          "question": "How to contact a specific PIC for example for consultation, business cooperation or visits?",
+          "answer": "Contact: 08138888980"
+        }
+      }
+    },
+    "cta": {
+      "title": "Make Your Dream Mushroom Business Come True Now",
+      "button": "Contact Us"
+    }
+  },
+  "aboutPage": {
+    "title": "About Us",
+    "headline": "Get to Know Us Better",
+    "description": "Jamur Cikuda Nusantara has been established since 2016 with a focus on high-quality oyster mushroom cultivation. Starting from a hobby, we are now a center for mushroom education and production in Bogor.",
+    "subDescription": "Get to know our journey in bringing goodness from nature through innovation, research, and high commitment to producing quality mushroom products.",
+    "experience": "We have more than",
+    "experienceHighlight": "5 years of experience in the mushroom industry",
+    "experienceSuffix": ", delivering quality products and trusted services.",
+    "stats": {
+      "customers": "Customers",
+      "feedback": "Positive Feedback",
+      "baglog": "Baglogs",
+      "alumni": "Training Alumni",
+      "partners": "Business Partners"
+    },
+    "managed": {
+      "title": "Managed by professionals",
+      "description": "Every process is carried out by an experienced team that prioritizes quality, efficiency, and customer trust."
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "To become the largest and most trusted mushroom cultivation and development center in Indonesia."
+    },
+    "mission": {
+      "title": "Mission",
+      "item1": "Provide premium quality mushroom products",
+      "item2": "Provide professional mushroom cultivation training",
+      "item3": "Develop mutually beneficial partnerships",
+      "item4": "Encourage innovation in the mushroom industry"
+    },
+    "cta": "START CONSULTATION"
+  },
+  "mushroomPage": {
+    "title": "About Mushroom",
+    "headline": "Popular Mushrooms in Indonesia",
+    "description": "Here are some popular mushrooms in Indonesia for both food and medicine",
+    "mushrooms": {
+      "oyster": {
+        "name": "Oyster Mushroom",
+        "latin": "Pleurotus ostreatus",
+        "origin": {
+          "title": "Origin",
+          "item1": "Easy to cultivate",
+          "item2": "Commonly found in tropical areas"
+        },
+        "nutrition": {
+          "title": "Nutritional Content",
+          "item1": "Rich in fiber",
+          "item2": "Contains beta-glucan",
+          "item3": "Contains antioxidants"
+        },
+        "benefits": {
+          "title": "Benefits",
+          "item1": "Boosts immune system",
+          "item2": "Supports heart health"
+        }
+      },
+      "straw": {
+        "name": "Straw Mushroom",
+        "latin": "Volvariella volvacea",
+        "origin": {
+          "title": "Origin",
+          "item1": "Grows on straw piles"
+        },
+        "nutrition": {
+          "title": "Nutritional Content",
+          "item1": "Rich in protein",
+          "item2": "Contains vitamin B complex and minerals"
+        },
+        "benefits": {
+          "title": "Benefits",
+          "item1": "Good for body metabolism",
+          "item2": "Increases endurance"
+        }
+      },
+      "lingzhi": {
+        "name": "Lingzhi Mushroom",
+        "latin": "Ganoderma lucidum",
+        "origin": {
+          "title": "Origin",
+          "item1": "Commonly found in Asian forests"
+        },
+        "nutrition": {
+          "title": "Nutritional Content",
+          "item1": "Contains polysaccharides and triterpenoids"
+        },
+        "benefits": {
+          "title": "Benefits",
+          "item1": "Boosts immune system",
+          "item2": "Herbal medicine for diabetes",
+          "item3": "Herbal medicine for heart"
+        }
+      },
+      "woodEar": {
+        "name": "Wood Ear Mushroom",
+        "latin": "Auricularia auricula-judae",
+        "origin": {
+          "title": "Origin",
+          "item1": "Grows on straw piles"
+        },
+        "nutrition": {
+          "title": "Nutritional Content",
+          "item1": "Rich in protein",
+          "item2": "Contains vitamin B complex and minerals"
+        },
+        "benefits": {
+          "title": "Benefits",
+          "item1": "Good for body metabolism",
+          "item2": "Increases endurance"
+        }
+      },
+      "enoki": {
+        "name": "Enoki Mushroom",
+        "latin": "Flammulina velutipes",
+        "origin": {
+          "title": "Origin",
+          "item1": "Commonly found in East Asian forests"
+        },
+        "nutrition": {
+          "title": "Nutritional Content",
+          "item1": "Low calorie and high fiber"
+        },
+        "benefits": {
+          "title": "Benefits",
+          "item1": "Good for digestion",
+          "item2": "Helps maintain weight"
+        }
+      },
+      "button": {
+        "name": "Button Mushroom",
+        "latin": "Agaricus bisporus",
+        "origin": {
+          "title": "Origin",
+          "item1": "Forests of Europe and North America"
+        },
+        "nutrition": {
+          "title": "Nutritional Content",
+          "item1": "High protein and low calorie"
+        },
+        "benefits": {
+          "title": "Benefits",
+          "item1": "Maintains weight",
+          "item2": "Improves digestive health"
+        }
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Our Services",
+    "headline": "Everything Is Here",
+    "edutour": {
+      "title": "Edutour",
+      "headline": "Getting to Know Mushrooms Through Direct Experience",
+      "description": "An interactive educational program that introduces the world of mushrooms from the cultivation process to its benefits. Suitable for students, communities, and nature enthusiasts.",
+      "cardTitle": "Educational Tour",
+      "detailTitle": "Edutour Details",
+      "details": {
+        "item1": "Open for students, communities, civil servants and others",
+        "item2": "Guided by experts",
+        "item3": "Can enjoy lunch and dinner at Suppa Jamur Restaurant"
+      }
+    },
+    "partnership": {
+      "title": "Partnership Opportunities",
+      "generalTitle": "General Partnership Opportunities",
+      "generalHeadline": "Be Part of Jamur Cikuda Partner Network",
+      "generalDescription": "We open partnership opportunities for various groups who want to develop mushroom businesses.",
+      "investorTitle": "Investor Partnership Opportunities",
+      "investorHeadline": "Profitable Investment in Mushroom Business",
+      "investorDescription": "Become our investor and enjoy profits from the growing mushroom business.",
+      "businessDetail": "Business Details",
+      "cta": "CONTACT NOW",
+      "cards": {
+        "oysterCultivation": {
+          "title": "Oyster Mushroom Cultivation",
+          "baglogCost": "Baglog Production Cost",
+          "sellingPrice": "Fresh Mushroom Selling Price",
+          "profit": "Profit",
+          "yearlyProduction": "Yearly Production",
+          "profitSharing": "Profit Sharing"
+        },
+        "baglogProduction": {
+          "title": "100% Mycelium Baglog Production",
+          "baglogCost": "Baglog Production Cost",
+          "sellingPrice": "Fresh Mushroom Selling Price",
+          "profit": "Profit",
+          "yearlyProduction": "Yearly Production",
+          "profitSharing": "Profit Sharing"
+        },
+        "seedProduction": {
+          "title": "Mushroom Seed Production",
+          "seedCost": "Seed Production Cost",
+          "sellingPrice": "Fresh Mushroom Selling Price",
+          "profit": "Profit",
+          "yearlyProduction": "Yearly Production",
+          "profitSharing": "Profit Sharing"
+        },
+        "crispyFrozen": {
+          "title": "Crispy Mushroom & Frozen Food",
+          "crispyCost": "Crispy Mushroom Production Cost",
+          "crispyPrice": "Crispy Mushroom Selling Price",
+          "profit": "Profit",
+          "yearlyProduction": "Yearly Production",
+          "profitSharing": "Profit Sharing"
+        },
+        "restaurant": {
+          "title": "Suppa Mushroom Restaurant",
+          "description": "The restaurant building in the form of Joglo is ready, Investors who are willing to cooperate can contact us and discuss the cooperation"
+        },
+        "driedPowder": {
+          "title": "Dried Mushroom & Powder",
+          "description": "This is The Next Level Mushroom Business that will go viral and become a lifestyle in Indonesia related to Indonesian human health"
+        }
+      }
+    }
+  },
+  "footer": {
+    "address": "JHPR+8P9, Cikuda Wanaherang, Parung Panjang, Bogor Regency, West Java 16360",
+    "hours": {
+      "days": "Monday – Friday",
+      "time": "09.00 – 20.00"
+    },
+    "copyright": "Copyright © 2026 Jamur Cikuda"
+  },
+  "products": {
+    "title": "Our Products",
+    "shopTitle": "Product Shop",
+    "headline": "Nusantara Mushroom Products",
+    "description": "Here are some quality nusantara mushroom products",
+    "price": "Rp",
+    "quantity": "Quantity",
+    "cart": "Cart",
+    "cartTitle": "Shopping Cart",
+    "addToCart": "Add to Cart"
+  }
+}

@@ -1,49 +1,51 @@
-'use client';
+"use client";
 
-import DarkBlueDotIcon from '@/components/icons/DarkBlueDotIcon';
-import Typography from '@/components/ui/typography';
-import { motion } from 'framer-motion';
+import DarkBlueDotIcon from "@/components/icons/DarkBlueDotIcon";
+import Typography from "@/components/ui/typography";
+import { motion } from "framer-motion";
 
 import {
   containerVariant,
   fadeUpVariant,
   fadeRightVariant,
-} from '@/lib/motion';
+} from "@/lib/motion";
+import { useTranslations } from "next-intl";
 
 const PelayananKamiSection = () => {
+  const t = useTranslations();
+
   return (
     <motion.div
-      className="mt-8 md:mt-14"
+      className='mt-8 md:mt-14'
       variants={containerVariant}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.3 }}>
+      initial='hidden'
+      whileInView='visible'
+      viewport={{ once: true, amount: 0.3 }}
+    >
       {/* Title */}
-      <motion.div variants={fadeUpVariant} className="flex flex-row gap-2">
+      <motion.div variants={fadeUpVariant} className='flex flex-row gap-2'>
         <DarkBlueDotIcon />
-        <Typography variant="h4" weight="semibold">
-          Pelayanan Kami
+        <Typography variant='h4' weight='semibold'>
+          {t("servicesPage.title")}
         </Typography>
       </motion.div>
 
       {/* Content */}
       <motion.div
-        className="grid md:grid-cols-2 pt-6 gap-6 md:gap-0"
-        variants={containerVariant}>
+        className='grid md:grid-cols-2 pt-6 gap-6 md:gap-0'
+        variants={containerVariant}
+      >
         {/* Headline */}
         <motion.div variants={fadeUpVariant}>
-          <Typography variant="h1" color="black" className="md:w-3/5">
-            Tumbuh Pasti, Panen Pasti Berhasil
+          <Typography variant='h1' color='black' className='md:w-3/5'>
+            {t("servicesPage.headline")}
           </Typography>
         </motion.div>
 
         {/* Description */}
         <motion.div variants={fadeRightVariant}>
-          <Typography variant="h3" weight="regular">
-            Di kebun kami, merupakan satu-satunya budidaya jamur yang
-            menggunakan Aplikasi + IoT yang menjamin setiap pertumbuhan dan
-            hasilnya
-            <span className="text-main font-semibold"> berhasil 98,8</span>
+          <Typography variant='h3' weight='regular'>
+            {t("home.services.description")}
           </Typography>
         </motion.div>
       </motion.div>

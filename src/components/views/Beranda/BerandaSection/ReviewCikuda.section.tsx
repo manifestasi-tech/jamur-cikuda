@@ -11,8 +11,11 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import { motion } from "framer-motion";
 import { containerVariant, fadeUpVariant } from "@/lib/motion";
+import { useTranslations } from "next-intl";
 
 const PelayananKamiSection = () => {
+  const t = useTranslations();
+
   return (
     <motion.section
       className='space-y-10'
@@ -29,12 +32,12 @@ const PelayananKamiSection = () => {
         <div className='flex items-center gap-2'>
           <DarkBlueDotIcon />
           <Typography variant='h4' weight='semibold'>
-            Review Cikuda
+            {t("home.reviews.title")}
           </Typography>
         </div>
 
         <Typography variant='h1' weight='bold'>
-          Apa Kata Para Pelanggan Kami
+          {t("home.reviews.subtitle")}
         </Typography>
       </motion.div>
 
@@ -52,8 +55,8 @@ const PelayananKamiSection = () => {
                 className='basis-full md:basis-1/3 py-4 pl-0 px-4'
               >
                 <div className='h-full w-full flex flex-col items-center text-center p-8 gap-4 rounded-xl shadow-[0_6px_10px_rgba(0,0,0,0.15)] bg-white'>
-                  <Typography>{item.desc}</Typography>
-                  <Typography weight='semibold'>{item.name}</Typography>
+                  <Typography>{t(item.descKey)}</Typography>
+                  <Typography weight='semibold'>{t(item.nameKey)}</Typography>
                 </div>
               </CarouselItem>
             ))}

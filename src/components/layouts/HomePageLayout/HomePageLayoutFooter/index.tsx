@@ -5,16 +5,19 @@ import {
   CONTACT_ITEMS,
   NAVIGATION_MENU_ITEMS,
 } from "../HomePageLayout.constants";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Typography from "@/components/ui/typography";
 import { Button } from "@/components/ui/button";
 import CalendarIcon from "@/components/icons/CalendarIcon";
 import ClockIcon from "@/components/icons/ClockIcon";
 import MapPinIcon from "@/components/icons/MapPinIcon";
+import { useTranslations } from "next-intl";
 
 const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
 
 const HomePageLayoutFooter = () => {
+  const t = useTranslations();
+
   return (
     <footer>
       <div className='max-w-7xl mx-auto mb-10 px-4'>
@@ -32,20 +35,17 @@ const HomePageLayoutFooter = () => {
             <div className='space-y-3 p-2 md:p-5'>
               <div className='flex items-center gap-2'>
                 <CalendarIcon />
-                <Typography variant='body'>Senin – Jumat</Typography>
+                <Typography variant='body'>{t("footer.hours.days")}</Typography>
               </div>
 
               <div className='flex items-center gap-2'>
                 <ClockIcon />
-                <Typography variant='body'>09.00 – 20.00</Typography>
+                <Typography variant='body'>{t("footer.hours.time")}</Typography>
               </div>
 
               <div className='flex items-start gap-2'>
                 <MapPinIcon className='shrink-0' />
-                <Typography variant='body'>
-                  JHPR+8P9, Cikuda Wanaherang, Parung Panjang, Bogor Regency,
-                  West Java 16360
-                </Typography>
+                <Typography variant='body'>{t("footer.address")}</Typography>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ const HomePageLayoutFooter = () => {
         <div className='max-w-7xl mx-auto space-y-14 px-8 xl:px-0'>
           <div className='flex flex-col md:flex-row justify-between gap-4 md:gap-0'>
             <Typography variant='h2' weight='regular' color='white'>
-              Wujudkan Bisnis Jamur Impian Anda Sekarang
+              {t("home.cta.title")}
             </Typography>
             <Button asChild variant={"secondary"} size={"wide"}>
               <Link
@@ -66,7 +66,7 @@ const HomePageLayoutFooter = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Hubungi Kami
+                {t("common.contactUs")}
               </Link>
             </Button>
           </div>
@@ -93,7 +93,7 @@ const HomePageLayoutFooter = () => {
                   className='hover:underline decoration-white'
                 >
                   <Typography variant={"base"} weight={"regular"} color='white'>
-                    {item.label}
+                    {t(item.labelKey)}
                   </Typography>
                 </Link>
               ))}
@@ -101,8 +101,7 @@ const HomePageLayoutFooter = () => {
             {/* Address */}
             <div>
               <Typography variant={"base"} weight={"regular"} color={"white"}>
-                JHPR+8P9, Cikuda Wanaherang, Parung Panjang, Bogor Regency, West
-                Java 16360
+                {t("footer.address")}
               </Typography>
             </div>
 
@@ -130,7 +129,7 @@ const HomePageLayoutFooter = () => {
           <div className='flex md:justify-center'>
             <Typography color={"white"} weight={"regular"}>
               {" "}
-              Copyright © 2026 Jamur Cikuda
+              {t("footer.copyright")}
             </Typography>
           </div>
         </div>

@@ -1,145 +1,169 @@
-import MapPinIcon from '@/components/icons/MapPinIcon';
-import Mushroom2Icon from '@/components/icons/Mushroom2Icon';
-import HeartPlusIcon from '@/components/icons/HeartPlusIcon';
+import MapPinIcon from "@/components/icons/MapPinIcon";
+import Mushroom2Icon from "@/components/icons/Mushroom2Icon";
+import HeartPlusIcon from "@/components/icons/HeartPlusIcon";
 
 const JAMUR_ITEMS = [
   {
-    name: 'Jamur Tiram',
-    latin: 'Pleurotus ostreatus',
-    img: '/images/tentangjamur/JamurTiram.png',
+    nameKey: "mushroomPage.mushrooms.oyster.name",
+    latinKey: "mushroomPage.mushrooms.oyster.latin",
+    img: "/images/tentangjamur/JamurTiram.png",
     detail: [
       {
-        title: 'Asal',
+        titleKey: "mushroomPage.mushrooms.oyster.origin.title",
         icon: <MapPinIcon />,
-        items: ['Mudah dibudidayakan', 'Umum ditemukan di daerah tropis'],
-      },
-      {
-        title: 'Kandungan Nutrisi',
-        icon: <Mushroom2Icon />,
-        items: [
-          'Kaya serat',
-          'Mengandung beta-glukan',
-          'Mengandung antioksidan',
+        itemKeys: [
+          "mushroomPage.mushrooms.oyster.origin.item1",
+          "mushroomPage.mushrooms.oyster.origin.item2",
         ],
       },
       {
-        title: 'Khasiat',
-        icon: <HeartPlusIcon />,
-        items: ['Meningkatkan sistem imun', 'Mendukung kesehatan jantung'],
-      },
-    ],
-  },
-  {
-    name: 'Jamur Merang',
-    latin: 'Volvariella volvacea',
-    img: '/images/tentangjamur/JamurMerang.png',
-    detail: [
-      {
-        title: 'Asal',
-        icon: <MapPinIcon />,
-        items: ['Tumbuh di tumpukan jerami'],
-      },
-      {
-        title: 'Kandungan Nutrisi',
+        titleKey: "mushroomPage.mushrooms.oyster.nutrition.title",
         icon: <Mushroom2Icon />,
-        items: ['Kaya protein', 'Mengandung vitamin b kompleks dan mineral'],
+        itemKeys: [
+          "mushroomPage.mushrooms.oyster.nutrition.item1",
+          "mushroomPage.mushrooms.oyster.nutrition.item2",
+          "mushroomPage.mushrooms.oyster.nutrition.item3",
+        ],
       },
       {
-        title: 'Khasiat',
+        titleKey: "mushroomPage.mushrooms.oyster.benefits.title",
         icon: <HeartPlusIcon />,
-        items: ['Baik untuk metabolisme tubuh', 'Meningkatkan daya tahan'],
-      },
-    ],
-  },
-  {
-    name: 'Jamur Lingzhi',
-    latin: 'Ganoderma lucidum',
-    img: '/images/tentangjamur/JamurLingzhi.png',
-    detail: [
-      {
-        title: 'Asal',
-        icon: <MapPinIcon />,
-        items: ['Banyak ditemukan di hutan hutan asia'],
-      },
-      {
-        title: 'Kandungan Nutrisi',
-        icon: <Mushroom2Icon />,
-        items: ['Mengandung polisakarida dan triterpenoid'],
-      },
-      {
-        title: 'Khasiat',
-        icon: <HeartPlusIcon />,
-        items: [
-          'Meningkatkan sistem imun',
-          'Obat herbal diabetes',
-          'Obat herbal jantung',
+        itemKeys: [
+          "mushroomPage.mushrooms.oyster.benefits.item1",
+          "mushroomPage.mushrooms.oyster.benefits.item2",
         ],
       },
     ],
   },
   {
-    name: 'Jamur Kuping',
-    latin: 'Auricularia auricula-judae',
-    img: '/images/tentangjamur/JamurKuping.png',
+    nameKey: "mushroomPage.mushrooms.straw.name",
+    latinKey: "mushroomPage.mushrooms.straw.latin",
+    img: "/images/tentangjamur/JamurMerang.png",
     detail: [
       {
-        title: 'Asal',
+        titleKey: "mushroomPage.mushrooms.straw.origin.title",
         icon: <MapPinIcon />,
-        items: ['Tumbuh di tumpukan jerami'],
+        itemKeys: ["mushroomPage.mushrooms.straw.origin.item1"],
       },
       {
-        title: 'Kandungan Nutrisi',
+        titleKey: "mushroomPage.mushrooms.straw.nutrition.title",
         icon: <Mushroom2Icon />,
-        items: ['Kaya protein', 'Mengandung vitamin b kompleks dan mineral'],
+        itemKeys: [
+          "mushroomPage.mushrooms.straw.nutrition.item1",
+          "mushroomPage.mushrooms.straw.nutrition.item2",
+        ],
       },
       {
-        title: 'Khasiat',
+        titleKey: "mushroomPage.mushrooms.straw.benefits.title",
         icon: <HeartPlusIcon />,
-        items: ['Baik untuk metabolisme tubuh', 'Meningkatkan daya tahan'],
+        itemKeys: [
+          "mushroomPage.mushrooms.straw.benefits.item1",
+          "mushroomPage.mushrooms.straw.benefits.item2",
+        ],
       },
     ],
   },
   {
-    name: 'Jamur Enoki',
-    latin: 'Flammulina velutipes',
-    img: '/images/tentangjamur/JamurEnoki.png',
+    nameKey: "mushroomPage.mushrooms.lingzhi.name",
+    latinKey: "mushroomPage.mushrooms.lingzhi.latin",
+    img: "/images/tentangjamur/JamurLingzhi.png",
     detail: [
       {
-        title: 'Asal',
+        titleKey: "mushroomPage.mushrooms.lingzhi.origin.title",
         icon: <MapPinIcon />,
-        items: ['Banyak ditemukan di hutan hutan asia timur'],
+        itemKeys: ["mushroomPage.mushrooms.lingzhi.origin.item1"],
       },
       {
-        title: 'Kandungan Nutrisi',
+        titleKey: "mushroomPage.mushrooms.lingzhi.nutrition.title",
         icon: <Mushroom2Icon />,
-        items: ['Rendah kalori dan tinggi serat'],
+        itemKeys: ["mushroomPage.mushrooms.lingzhi.nutrition.item1"],
       },
       {
-        title: 'Khasiat',
+        titleKey: "mushroomPage.mushrooms.lingzhi.benefits.title",
         icon: <HeartPlusIcon />,
-        items: ['Baik untuk pencernaan', 'Membantu menjaga berat badan'],
+        itemKeys: [
+          "mushroomPage.mushrooms.lingzhi.benefits.item1",
+          "mushroomPage.mushrooms.lingzhi.benefits.item2",
+          "mushroomPage.mushrooms.lingzhi.benefits.item3",
+        ],
       },
     ],
   },
   {
-    name: 'Jamur Kancing',
-    latin: 'Agaricus bisporus',
-    img: '/images/tentangjamur/JamurKancing.png',
+    nameKey: "mushroomPage.mushrooms.woodEar.name",
+    latinKey: "mushroomPage.mushrooms.woodEar.latin",
+    img: "/images/tentangjamur/JamurKuping.png",
     detail: [
       {
-        title: 'Asal',
+        titleKey: "mushroomPage.mushrooms.woodEar.origin.title",
         icon: <MapPinIcon />,
-        items: ['Hutan Eropa dan Amerika Utara'],
+        itemKeys: ["mushroomPage.mushrooms.woodEar.origin.item1"],
       },
       {
-        title: 'Kandungan Nutrisi',
+        titleKey: "mushroomPage.mushrooms.woodEar.nutrition.title",
         icon: <Mushroom2Icon />,
-        items: ['Tinggi protein dan rendah kalori'],
+        itemKeys: [
+          "mushroomPage.mushrooms.woodEar.nutrition.item1",
+          "mushroomPage.mushrooms.woodEar.nutrition.item2",
+        ],
       },
       {
-        title: 'Khasiat',
+        titleKey: "mushroomPage.mushrooms.woodEar.benefits.title",
         icon: <HeartPlusIcon />,
-        items: ['Menjaga berat badan', 'Meningkatkan kesehatan pencernaan'],
+        itemKeys: [
+          "mushroomPage.mushrooms.woodEar.benefits.item1",
+          "mushroomPage.mushrooms.woodEar.benefits.item2",
+        ],
+      },
+    ],
+  },
+  {
+    nameKey: "mushroomPage.mushrooms.enoki.name",
+    latinKey: "mushroomPage.mushrooms.enoki.latin",
+    img: "/images/tentangjamur/JamurEnoki.png",
+    detail: [
+      {
+        titleKey: "mushroomPage.mushrooms.enoki.origin.title",
+        icon: <MapPinIcon />,
+        itemKeys: ["mushroomPage.mushrooms.enoki.origin.item1"],
+      },
+      {
+        titleKey: "mushroomPage.mushrooms.enoki.nutrition.title",
+        icon: <Mushroom2Icon />,
+        itemKeys: ["mushroomPage.mushrooms.enoki.nutrition.item1"],
+      },
+      {
+        titleKey: "mushroomPage.mushrooms.enoki.benefits.title",
+        icon: <HeartPlusIcon />,
+        itemKeys: [
+          "mushroomPage.mushrooms.enoki.benefits.item1",
+          "mushroomPage.mushrooms.enoki.benefits.item2",
+        ],
+      },
+    ],
+  },
+  {
+    nameKey: "mushroomPage.mushrooms.button.name",
+    latinKey: "mushroomPage.mushrooms.button.latin",
+    img: "/images/tentangjamur/JamurKancing.png",
+    detail: [
+      {
+        titleKey: "mushroomPage.mushrooms.button.origin.title",
+        icon: <MapPinIcon />,
+        itemKeys: ["mushroomPage.mushrooms.button.origin.item1"],
+      },
+      {
+        titleKey: "mushroomPage.mushrooms.button.nutrition.title",
+        icon: <Mushroom2Icon />,
+        itemKeys: ["mushroomPage.mushrooms.button.nutrition.item1"],
+      },
+      {
+        titleKey: "mushroomPage.mushrooms.button.benefits.title",
+        icon: <HeartPlusIcon />,
+        itemKeys: [
+          "mushroomPage.mushrooms.button.benefits.item1",
+          "mushroomPage.mushrooms.button.benefits.item2",
+        ],
       },
     ],
   },

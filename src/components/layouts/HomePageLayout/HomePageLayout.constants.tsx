@@ -18,22 +18,27 @@ const CONTACT_ITEMS = [
 
 const NAVIGATION_MENU_ITEMS = [
   {
+    labelKey: "nav.home",
     label: "Beranda",
     href: "/",
   },
   {
+    labelKey: "nav.services",
     label: "Pelayanan Kami",
     href: "/pelayanan-kami",
   },
   {
+    labelKey: "nav.about",
     label: "Tentang Kami",
     href: "/tentang-kami",
   },
   {
+    labelKey: "nav.mushroom",
     label: "Tentang Jamur",
     href: "/tentang-jamur",
   },
   {
+    labelKey: "nav.shop",
     label: "Toko Produk",
     href: "/toko-produk",
   },
