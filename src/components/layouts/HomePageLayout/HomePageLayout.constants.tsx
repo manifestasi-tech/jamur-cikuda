@@ -6,7 +6,7 @@ const CONTACT_ITEMS = [
   },
   {
     label: "Mizzy",
-    phone: "082141765353",
+    phone: "+62 821-4176-5353",
     href: "https://wa.me/6282141765353",
   },
   {
