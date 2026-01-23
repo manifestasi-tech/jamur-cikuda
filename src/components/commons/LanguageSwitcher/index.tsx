@@ -24,7 +24,7 @@ export default function LanguageSwitcher() {
       className='gap-2'
     >
       <Languages size={18} />
-      <span className='hidden md:inline'>
+      <span>
         {currentLocale === "id" ? "EN" : "ID"}
       </span>
     </Button>
