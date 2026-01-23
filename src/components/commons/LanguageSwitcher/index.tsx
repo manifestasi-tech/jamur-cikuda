@@ -24,9 +24,7 @@ export default function LanguageSwitcher() {
       className='gap-2'
     >
       <Languages size={18} />
-      <span>
-        {currentLocale === "id" ? "EN" : "ID"}
-      </span>
+      <span>{currentLocale === "id" ? "EN" : "ID"}</span>
     </Button>
   );
 }
