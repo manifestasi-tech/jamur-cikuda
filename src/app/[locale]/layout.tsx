@@ -12,6 +12,8 @@ import {
 import { GoogleAnalytics } from "@/components/analytics";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { WelcomePopup } from "@/components/commons/WelcomePopup";
+import { Suspense } from "react";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jamurcikuda.com";
 
@@ -143,6 +145,9 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <Suspense>
+          <WelcomePopup />
+        </Suspense>
         <Toaster
           position='top-right'
           richColors
